@@ -155,7 +155,7 @@ const FirstMeetup = () => {
         <div className="min-h-screen p-8">
           <div className="max-w-2xl mx-auto bg-white/90 backdrop-blur p-8 rounded-lg shadow-lg">
             <h2 className="text-4xl font-bold mb-8 text-center">Help Shape Our Next Meetup!</h2>
-            <p className="text-lg mb-8 text-center">Scan the QR code below to tell us what topics you'd like to see in our upcoming meetups.</p>
+            <p className="text-lg mb-8 text-center">Scan the QR code below to tell us what topics you would like to see in our upcoming meetups.</p>
             <div className="flex justify-center mb-8">
               <div className="w-64 h-64 bg-gray-200 flex items-center justify-center">
                 <Image src="/qrcode.svg" alt="Survey QR Code" fill className="object-contain" />
