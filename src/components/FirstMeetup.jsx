@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
 const FirstMeetup = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -12,17 +13,17 @@ const FirstMeetup = () => {
           <h1 className="text-6xl font-bold text-white mb-8">MERN DEV</h1>
           <h2 className="text-4xl font-bold text-white mb-8">Adelaide</h2>
           <div className="flex gap-8 mt-8">
-            <div className="w-12 h-12">
-              <img src="mongodb.svg" alt="MongoDB" className="w-full h-full object-contain" />
+            <div className="w-12 h-12 relative">
+              <Image src="/background.svg" alt="MongoDB" fill className="object-contain" />
             </div>
-            <div className="w-12 h-12">
-              <img src="express.svg" alt="Express" className="w-full h-full object-contain" />
+            <div className="w-12 h-12 relative">
+              <Image src="/background.svg" alt="Express" fill className="object-contain" />
             </div>
-            <div className="w-12 h-12">
-              <img src="react.svg" alt="React" className="w-full h-full object-contain" />
+            <div className="w-12 h-12 relative">
+              <Image src="/background.svg" alt="React" fill className="object-contain" />
             </div>
-            <div className="w-12 h-12">
-              <img src="node.svg" alt="Node.js" className="w-full h-full object-contain" />
+            <div className="w-12 h-12 relative">
+              <Image src="/background.svg" alt="Node.js" fill className="object-contain" />
             </div>
           </div>
         </div>
@@ -157,7 +158,7 @@ const FirstMeetup = () => {
             <p className="text-lg mb-8 text-center">Scan the QR code below to tell us what topics you'd like to see in our upcoming meetups.</p>
             <div className="flex justify-center mb-8">
               <div className="w-64 h-64 bg-gray-200 flex items-center justify-center">
-                <img src="qrcode.svg" alt="Survey QR Code" className="w-full h-full object-contain" />
+                <Image src="/qrcode.svg" alt="Survey QR Code" fill className="object-contain" />
               </div>
             </div>
             <p className="text-center text-gray-600">Your input helps us create more valuable and engaging content!</p>
