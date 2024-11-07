@@ -16,6 +16,35 @@ const FirstMeetup = () => {
       ),
     },
     {
+      id: "acknowledgement",
+      content: (
+        <div className="min-h-screen p-8 flex items-center justify-center">
+          <div className="max-w-3xl w-full bg-white/90 backdrop-blur p-8 rounded-lg shadow-lg">
+            <h2 className="text-4xl font-bold mb-8 text-center">
+              Acknowledgement of Country
+            </h2>
+            <div className="space-y-6 text-lg">
+              <p>
+                We acknowledge this land that we meet on today is the traditional
+                lands for the Kaurna people and that we respect their spiritual
+                relationship with their country.
+              </p>
+              <p>
+                We also acknowledge the Kaurna people as the custodians of the
+                Adelaide region and that their cultural and heritage beliefs are
+                still as important to the living Kaurna people today.
+              </p>
+              <p>
+                We also pay respects to the cultural authority of Aboriginal
+                people visiting/attending from other areas of South
+                Australia.
+              </p>
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
       id: "definition",
       content: (
         <div className="min-h-screen p-8 flex items-center justify-center">
